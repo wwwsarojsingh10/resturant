@@ -1,0 +1,58 @@
+/* Bootstrap CSS */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+/* Custom CSS */
+
+/* Add color to body */
+body {
+    background-color: lightblue;
+  }
+
+
+/* Add a hover effect to the submit button */
+.btn-primary:hover {
+    background-color: blueviolet;
+    border-color: #e76f51;
+    cursor: pointer;
+}
+
+.text-center{
+    background-color: blueviolet;
+    border-color: #e76f51;
+    width: 200%;
+    max-width: 600px;
+}
+
+
+/* Center the form horizontally and vertically */
+
+form {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Set the form width to 100% of the container */
+form {
+    width: 200%;
+    max-width: 600px;
+}
+
+/* Add spacing between form fields */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Add a custom color to the submit button */
+.btn-primary {
+    background-color: #f4a261;
+    border-color: blueviolet;
+}
+
+.btn-primary:hover {
+    background-color: #e76f51;
+    border-color: #e76f51;
+}
